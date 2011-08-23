@@ -1,0 +1,3 @@
+[submodule "lib/vendor/php-dynamics"]
+	path = lib/vendor/php-dynamics
+	url = sc@dakrazy.net:9000/dynamics-src.git

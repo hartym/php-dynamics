@@ -1,0 +1,42 @@
+# Welcome to sfDynamicsPlugin
+
+Welcome on sfDynamicsPlugin homepage. This symfony plugin aims to revolution the way javascript is used in symfony projects. It supports
+extensible configuration, library dependances, stylesheets, i18n, themes, packing, caching, and much more. To have a detailed explanation of
+each features, please take a look at the <a href="<?php echo url_for('public/features'); ?>">features list</a>
+
+This plugin is not bound to a specific javascript framework, and provides an easy way to use one set of scripts alltogether. For now, only configuration
+files for jQuery and jQuery UI are provided, but our XML based configuration system allows to create different configuration packages describing
+how each framework interacts with each of their associated libraries.
+
+# Documentation
+
+sfDynamicsPlugin is a brand new way of thinking dynamic behaviors within a symfony project. Each coherent group of javascripts/stylesheets is thought as a `package`, that can be easily loaded, with all its dependencies.
+
+If you're in a development stage, where being verbose is more important than speed, each package is compiled by the sfDynamics module.
+
+If you're in a production stage, where efficience, network traffic and speed are critical, sfDynamics can include all your behaviors in one minified javascript and one minified stylesheet, statically cached under your web directory.
+
+To get started quickly with how to use it, look at the [tutorial](documentation/tutorial-01_getting_started).
+
+# Javascript frameworks
+
+We're actively looking for configuration writers maintainers for all the following javascript frameworks:
+
+ * Prototype + scriptaculous
+ * Yahoo UI
+ * ExtJS
+ * Mootools
+ * Dojo
+
+To know what configuration packages looks like, have a look at the [configuration reference](/documentation/configuration)
+
+If you're interested in contributing to the plugin, have a look at the [contribute page](/documentation/contribute).
+
+# History
+
+This plugin is a result of much tries all refactored into one robust implementation of what we believe will be a real enterprise ready
+alternative to the yet unreplaced old school symfony 1.0 javascript helpers.
+
+# Contributors
+
+todo

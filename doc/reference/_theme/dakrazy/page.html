@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block header %}
+  <a href="http://dakrazy.net"><span class="logo"></span></a>
+  <div class="header-banner">
+    <a href="{{ pathto('index')}}">{{ theme_dk_project_title }}</a>
+    <span>{{ theme_dk_project_description }}</span>
+  </div>
+{% endblock %}
+{% block body %}
+  {{ body }}
+{% endblock %}
+{%- block footer %}
+    <div class="footer">
+        &copy; <a href="http://dakrazy.net/" target="_blank">Romain Dorgueil</a>
+        {% if theme_dk_license %}
+          <div class="copyright">
+            {{ theme_dk_license }}
+          </div>
+        {% endif%}
+    </div>
+{%- endblock %}

@@ -1,0 +1,12 @@
+window_sizes 1280 976 201 1069 757 126
+diagrams
+  active  classdiagram_ref 128042 // Cache Subsystem
+    1069 762 100 10 0 0
+end
+show_stereotypes
+selected attribute_ref 128170 // decoratee
+open
+  class_ref 128298 // Dynamics_Cache_Bridge_Zend
+  class_ref 128426 // Dynamics_Cache_Bridge_Symfony
+end
+end

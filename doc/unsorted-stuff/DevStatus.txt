@@ -1,0 +1,2 @@
+ * Dynamics_Routing: 66%, tested (remains the supercache stuff ::getCacheUrlFor())
+ * Dynamics_Configuration: 25%, needs tests
